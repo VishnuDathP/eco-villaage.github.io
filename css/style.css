@@ -9048,6 +9048,10 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-contact {
+  max-width: 55%;
+  height: auto;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -18407,7 +18411,7 @@ h6, .h6 {
 }
 
 .footer .footer-bottom img {
-  width: 200px;
+  width: 100px;
 }
 
 .footer .list-footer {
@@ -18594,7 +18598,7 @@ h6, .h6 {
   padding: .875rem .1rem;
   position: static;
   z-index: auto;
-  background: #3c37f1;
+  background: #046a04;
 }
 
 @media (max-width: 991px) {
