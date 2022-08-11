@@ -18361,9 +18361,11 @@ h6, .h6 {
 .footer {
   /* color: #e5e5e5; */
   /* background: #3c37f1 url(../images/footer_bg.svg); */
-  background: green url('../images/footer_bg.svg');
+  background: rgb(231  231  231 / 90%) url('../images/footer_bg.svg');
   background-size: cover;
   background-position: left bottom;
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
   /* background-repeat: no-repeat; */
 }
 
@@ -18405,9 +18407,11 @@ h6, .h6 {
 }
 
 .footer .footer-bottom {
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.3);
   padding: 30px 0;
   border-top: 1px solid rgba(151, 151, 151, 0.07);
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
 .footer .footer-bottom img {
@@ -18430,13 +18434,19 @@ h6, .h6 {
 .navbar {
   width: 100%;
   padding: 1.875rem 1rem;
-  background: green;
+  background: rgb(46  162  46 / 80%);
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
 @media (max-width: 991px) {
   .navbar {
-    padding: .875rem 1rem;
+    padding-top: 0.875rem;
+    padding-bottom: 63px;
+    padding-left: 1 rem;
+    padding-right: 1 rem;
     height: 71px;
+    backdrop-filter: none;
   }
 }
 
@@ -18624,7 +18634,7 @@ html {
 
 .home {
   /* background: url("../images/banner-bg.svg"); */
-  background-color: green;
+  background-color: #2ea22e;
   -webkit-mask-image: url("../images/banner-bg.svg");
   mask-image: url("../images/banner-bg.svg");
   /* background-repeat-y: no-repeat;  */
@@ -18648,6 +18658,7 @@ html {
   .main-banner {
     padding: 1rem;
     margin-bottom: 50px;
+    margin-top: 35px;
   }
 }
 
