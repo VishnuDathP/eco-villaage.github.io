@@ -18363,7 +18363,7 @@ h6, .h6 {
 .footer {
   /* color: #e5e5e5; */
   /* background: #3c37f1 url(../images/footer_bg.svg); */
-  background: rgb(229, 255, 230 ) url('../images/footer_bg.svg');
+  background: rgb(231  231  231 / 20%) url('../images/footer_bg.svg');
   background-size: cover;
   background-position: left bottom;
   -webkit-backdrop-filter: blur(10px);
