@@ -13336,7 +13336,9 @@ a.badge-danger:focus, a.badge-danger.focus {
 
 .badge-light {
   color: #fff;
-  background-color: #506690;
+  background-color: rgb(1  87  1 / 50%);
+  border-radius: 5px;
+  /* padding: 12px 10px; */
 }
 
 a.badge-light:hover, a.badge-light:focus {
@@ -18434,7 +18436,7 @@ h6, .h6 {
 .navbar {
   width: 100%;
   padding: 1.875rem 1rem;
-  background: rgb(46  162  46 / 80%);
+  background: rgb(0  128  0 / 90%);
   -webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 }
@@ -18634,17 +18636,17 @@ html {
 
 .home {
   /* background: url("../images/banner-bg.svg"); */
-  background-color: #2ea22e;
+  background-color: #008000;
   -webkit-mask-image: url("../images/banner-bg.svg");
   mask-image: url("../images/banner-bg.svg");
   /* background-repeat-y: no-repeat;  */
   /* background-position: 0 -50px; */
-  padding-top: 131px;
+  padding-top: 86px;
 }
 
 @media (max-width: 991px) {
   .home {
-    padding-top: 74px;
+    padding-top: 103px;
   }
 }
 
